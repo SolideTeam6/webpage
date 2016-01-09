@@ -10,6 +10,27 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--link rel="stylesheet" href="assets/slide/css/demo.css" /-->
+		<link rel="stylesheet" href="assets/slide/css/flexslider.css" />
+
+		<script src="assets/slide/js/modernizr.js"></script>
+
+	    <style type="text/css">
+	    .flex-caption {
+	      width: 96%;
+	      padding: 2%;
+	      left: 0;
+	      bottom: 0;
+	      background: rgba(0,0,0,.5);
+	      color: #fff;
+	      text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+	      font-size: 14px;
+	      line-height: 18px;
+	    }
+	    li.css a {
+	      border-radius: 0;
+	    }
+  </style>
   </head>
 	<body class="landing">
 		<div id="page-wrapper">
@@ -32,38 +53,62 @@
 					</div>
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
-
-				<section id="one" class="spotlight style1 bottom">
+				<!--section id="one" class="spotlight style1 bottom slider">
 					<span class="image fit main"><img src="images/solide2.jpg" alt="" /></span>
 					<div class="content">
 						<div class="container">
-							<div class="row">
-								<div class="4u 12u$(medium)">
-									<header>
-										<h2>Quienes Somos?</h2>
-										<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-
-									</header>
-								</div>
-								<div class="4u 12u$(medium)">
-									<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-
-								</div>
-								<div class="4u$ 12u$(medium)">
-									<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-
-
-									<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-
-								</div>
+							<div class="major">
+								<div class="flexslider">
+						          <ul class="slides">
+						            <li>
+						  	    	    <img src="assets/slide/images/kitchen_adventurer_cheesecake_brownie.jpg" />
+						              <p class="flex-caption" style="font-size: 17px; width: 100%">Ing. Alejandro Chaires Hinojos</p>
+						  	    		</li>
+						  	    		<li>
+						  	    	    <img src="assets/slide/images/kitchen_adventurer_lemon.jpg" />
+						              <p class="flex-caption" style="font-size: 17px; width: 100%">Ing. Jose Juan Gallegos</p>
+						  	    		</li>
+						  	    		<li>
+						  	    	    <img src="assets/slide/images/kitchen_adventurer_donut.jpg" />
+						              <p class="flex-caption" style="font-size: 17px; width: 100%">Ing. Samuel Herrera</p>
+						  	    		</li>
+						          </ul>
+						        </div>
 							</div>
 						</div>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
+				</section-->
+				<!-- uno copia prueba -->
+				<section id="one" class="wrapper style1 special fade-up slider">
+					<div class="container">
+						<header class="major" style="margin: -4em 0 2em 0 !important;">
+							<h2>Quienes somos ?</h2>
+							<p></p>
+						</header>
+						<div class="flexslider">
+				          <ul class="slides">
+				            <li>
+				  	    	    <img src="assets/slide/images/background_app.jpg" />
+				              <p class="flex-caption" style="font-size: 17px; width: 100%">Our team</p>
+				  	    		</li>
+				  	    		<li>
+				  	    	    <img src="assets/slide/images/background_app.jpg" />
+				              <p class="flex-caption" style="font-size: 17px; width: 100%">Ing. Jose Juan Gallegos</p>
+				  	    		</li>
+				  	    		<li>
+				  	    	    <img src="assets/slide/images/background_app.jpg" />
+				              <p class="flex-caption" style="font-size: 17px; width: 100%">Ing. Samuel Herrera</p>
+				  	    		</li>
+				          </ul>
+				        </div>
+				        	<a href="#four" class="goto-next scrolly" style="left: 120% !important;">Next</a>
+					</div>
 				</section>
+				<!-- uno copia prueba -->
 				<section id="four" class="wrapper style1 special fade-up">
 					<div class="container">
-						<header class="major">
+						<header class="major" style="margin: -4em 0 4em 0 !important;">
 							<h2>Que hacemos ?</h2>
 							<p></p>
 						</header>
@@ -149,6 +194,25 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- slide -->
+			 <script defer src="assets/slide/js/jquery.flexslider.js"></script>
 
+			  <script type="text/javascript">
+			    $(function(){
+			      SyntaxHighlighter.all();
+			    });
+			    $(window).load(function(){
+			      $('.flexslider').flexslider({
+			        animation: "slide",
+			        start: function(slider){
+			          $('body').removeClass('loading');
+			        }
+			      });
+			    });
+			  </script>
+			  <!-- Syntax Highlighter -->
+			  <script type="text/javascript" src="assets/slide/js/shCore.js"></script>
+			  <script type="text/javascript" src="assets/slide/js/shBrushXml.js"></script>
+			  <script type="text/javascript" src="assets/slide/js/shBrushJScript.js"></script>
 	</body>
 </html>
