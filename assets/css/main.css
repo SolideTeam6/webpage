@@ -3393,22 +3393,29 @@
 
 			#banner .content .image {
 				border-radius: 100%;
-				/*display: inline-block;*/
+				display: inline-block;
 				height: 18em;
 				margin-left: 3em;
 				vertical-align: middle;
 				width: 18em;
 			}
-
+				/*Esto Es el puro Cubo*/
 				#banner .content .image img {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
-					height: auto;
 				}
 
 	body.is-touch #banner {
 		background-attachment: scroll;
+	}
+ /*Letras del Banner*/
+	#whiteLetters{
+		display: inline-block;
+		height: container;
+		width: container;
+		max-width: 700px;
+		max-height: 300px;
 	}
 
 /* Footer */
