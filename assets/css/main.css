@@ -3393,7 +3393,7 @@
 
 			#banner .content .image {
 				border-radius: 100%;
-				display: inline-block;
+				/*display: inline-block;*/
 				height: 18em;
 				margin-left: 3em;
 				vertical-align: middle;
@@ -3404,6 +3404,7 @@
 					border-radius: 100%;
 					display: block;
 					width: 100%;
+					height: auto;
 				}
 
 	body.is-touch #banner {
