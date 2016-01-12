@@ -28,17 +28,44 @@
 				<section id="banner2">
 
 					<div class="content">
-            <h2>Ponte en contacto:</h2>
-            <form action="MAILTO:solideTeam6@gmail.com" method="post" enctype="text/plain">
-              Nombre:<br>
-              <input type="text" name="name" value=""><br>
-              E-mail:<br>
-              <input type="text" name="mail" value=""><br>
-              Comentario:<br>
-              <input type="text" name="comment" value="" size="50"><br><br>
-              <input type="submit" value="Send">
-              <input type="reset" value="Reset">
-            </form>
+				            <section>
+								<h3>Contactanos:</h3>
+								<form method="post" action="#">
+									<div class="row uniform 50%">
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="name" id="name" value="" placeholder="Nombre" />
+										</div>
+										<div class="6u$ 12u$(xsmall)">
+											<input type="email" name="email" id="email" value="" placeholder="Email" />
+										</div>
+										<div class="4u 12u$(medium)">
+											<input type="radio" id="priority-low" name="priority" checked>
+											<label for="priority-low">Baja Prioridad</label>
+										</div>
+										<div class="4u 12u$(medium)">
+											<input type="radio" id="priority-normal" name="priority">
+											<label for="priority-normal">Normal </label>
+										</div>
+										<div class="4u$ 12u$(medium)">
+											<input type="radio" id="priority-high" name="priority">
+											<label for="priority-high">Alta Prioridad</label>
+										</div>
+										<div class="6u 12u$(medium)">
+											<input type="checkbox" id="copy" name="copy">
+											<label for="copy">Enviarme Copia?</label>
+										</div>
+										<div class="12u$">
+											<textarea name="message" id="message" placeholder="Mensaje" rows="10"></textarea>
+										</div>
+										<div class="12u$">
+											<ul class="actions">
+												<li><input type="submit" value="Enviar" class="special" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
 					</div>
 				</section>
 				<footer id="footer">
