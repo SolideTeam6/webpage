@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+f@import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
 
@@ -3442,9 +3442,9 @@
 	}
  /*Letras del Banner*/
 	#whiteLetters{
-		display: inline-block;
-		height: container;
-		width: container;
+		
+		width: 100%;
+		height: auto;
 		max-width: 600px;
 	}
 
