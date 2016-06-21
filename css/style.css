@@ -609,7 +609,7 @@
 }
 .serviceArea:after {
     content: "";
-    background: url(../images/rectangle/service.png) no-repeat scroll center center;
+    /*background: url(../images/rectangle/service.png) no-repeat scroll center center;*/
     width: 80px;
     height: 40px;
     position: absolute;
