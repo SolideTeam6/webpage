@@ -91,7 +91,7 @@
     line-height: 0.8;
 }
 .logo h2 a:hover{
-    color: #de3c2f;
+    color: #C00D18;
     font-weight: 300;
 }
 .logo h2 a span{
@@ -148,12 +148,12 @@
 }
 .hasChild:hover:after,
 .hasChild.active:after {
-    color: #de3c2f;
+    color: #C00D18;
 }
 .mainMenu > ul > li.active > a,
 .mainMenu > ul > li > a:focus,
 .mainMenu > ul > li:hover > a{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .dropMenu{
     position: absolute;
@@ -201,7 +201,7 @@
 }
 .dropMenu > li > a:focus,
 .dropMenu > li > a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .dropSub{
     background: #fff;
@@ -245,7 +245,7 @@
 }
 .dropSub li a:focus,
 .dropSub li a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .menuButton {
     border-radius: 2px;
@@ -274,7 +274,7 @@
 }
 .menuButton.active span,
 .menuButton:hover span {
-    background: #de3c2f;
+    background: #C00D18;
 }
 .headerFix{
     position: fixed !important;
@@ -316,7 +316,7 @@
     background: #00abef;
 }
 .topSocial ul li a.google{
-    background: #de3c2f;
+    background: #C00D18;
 }
 .topSocial ul li a:focus,
 .topSocial ul li a:hover{
@@ -370,7 +370,7 @@
     padding: 160px 0 108px;
 }
 .redCaption {
-    background: #de3c2f;
+    background: #C00D18;
     color: #fff;
     display: inline-block;
     font-size: 13px;
@@ -435,7 +435,7 @@
     transition: all 700ms ease-in-out;
 }
 .sliderBtn:hover i{
-    background: #de3c2f;
+    background: #C00D18;
     color: #fff;
 }
 .sliderBtn:hover{
@@ -598,7 +598,7 @@
     color: #404040;
 }
 .featureContent h3 a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .featureContent h3 a span{
     font-weight: 300;
@@ -659,7 +659,7 @@
     transition: all 700ms ease-in-out;
 }
 .serviceContent h4 a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .serviceContent h4 a span{
     font-weight: 300;
@@ -668,8 +668,8 @@
     color: #bfbfbf;
 }
 .serviceIcon{
-    background: #de3c2f none repeat scroll 0 0;
-    border-radius: 50%;
+    background: #C00D18 none repeat scroll 0 0;
+    border-radius: 34%;
     height: 80px;
     text-align: center;
     width: 80px;
@@ -707,7 +707,7 @@
     padding-bottom: 24px;
 }
 .folioSubTittle{
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-size: 13px;
@@ -807,7 +807,7 @@
     margin: -41px 0 0 -41px;
 }
 .folioHover a.prePhoto{
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     border-radius: 50%;
     bottom: 0;
     color: #fff;
@@ -838,7 +838,7 @@
     margin: auto;
 }
 .folioHover a.detailsLink:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .folioHover a i{
     position: relative;
@@ -860,7 +860,7 @@
     -webkit-filter: blur(0);
 }
 div.pp_default .pp_close{
-    color: #de3c2f;
+    color: #C00D18;
     height: inherit;
     padding-right: 10px;
     padding-top: 6px;
@@ -875,7 +875,7 @@ div.pp_default .pp_close{
     position: relative;
 }
 .viewBtn {
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     display: table;
     height: 200px;
     left: 4px;
@@ -965,7 +965,7 @@ div.pp_default .pp_close{
     text-transform: capitalize;
 }
 .singleFacts p:before {
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     content: "";
     height: 3px;
     left: 0;
@@ -1060,7 +1060,7 @@ div.pp_default .pp_close{
     position: relative;
 }
 .postDate{
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     height: 175px;
     position: absolute;
     top: auto;
@@ -1101,7 +1101,7 @@ div.pp_default .pp_close{
     top: 18px;
 }
 .postDate a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .postContent {
     background: #fff;
@@ -1114,7 +1114,7 @@ div.pp_default .pp_close{
     padding: 37px 0 22px;
 }
 .postContent h3 a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .postThumb.first img{
     height: 560px;
@@ -1151,7 +1151,7 @@ div.pp_default .pp_close{
     width: 370px;
 }
 .subsForm form input.errorInput{
-    border-color: #de3c2f;
+    border-color: #C00D18;
 }
 .subsForm form input{
     width: 330px;
@@ -1160,7 +1160,7 @@ div.pp_default .pp_close{
     padding-left: 10px;
 }
 .subsForm form button {
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     border: medium none;
     height: 40px;
     left: auto;
@@ -1210,7 +1210,7 @@ div.pp_default .pp_close{
     padding-bottom: 30px;
 }
 .footerContent a{
-    color: #de3c2f;
+    color: #C00D18;
     font-size: 100px;
     font-weight: 300;
     padding-bottom: 34px;
@@ -1237,7 +1237,7 @@ div.pp_default .pp_close{
     color: #979797;
 }
 .copyRight p a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 #backto{
     width: 40px;
@@ -1252,7 +1252,7 @@ div.pp_default .pp_close{
     z-index: 99;
 }
 #backto:hover{
-    background: #de3c2f;
+    background: #C00D18;
 }
 #backto img{
     width: 10px;
@@ -1304,7 +1304,7 @@ div.pp_default .pp_close{
 }
 .folioBtn li:hover,
 .folioBtn li.active{
-    background: #de3c2f;
+    background: #C00D18;
 }
 .folioImg{
     position: relative;
@@ -1325,7 +1325,7 @@ div.pp_default .pp_close{
     display: none;
 }
 .folioHover2 a.prePhoto {
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -1356,7 +1356,7 @@ div.pp_default .pp_close{
     color: #404040;
 }
 .folioHover2 a.detailsLink:hover {
-    color: #de3c2f;
+    color: #C00D18;
 }
 /************************ Blog Section *******************************/
 .blogArea.home2.commonSection{
@@ -1376,7 +1376,7 @@ div.pp_default .pp_close{
 .metaLeft i{
     float: left;
     font-size: 20px;
-    color: #de3c2f;
+    color: #C00D18;
 }
 .metaLeft span{
     color: #404040;
@@ -1395,14 +1395,14 @@ div.pp_default .pp_close{
     padding-top: 5px;
 }
 .metaLeft a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .metaRight p{
     position: relative;
 }
 .metaRight i{
     font-size: 20px;
-    color: #de3c2f;
+    color: #C00D18;
     display: inline-block;
 }
 .metaRight span{
@@ -1472,7 +1472,7 @@ div.pp_default .pp_close{
     font-weight: 700;
 }
 .portfolioDetails h3 a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .potCategory{
     text-align: center;
@@ -1480,7 +1480,7 @@ div.pp_default .pp_close{
 }
 .potCategory a{
     font-weight: 400;
-    color: #de3c2f;
+    color: #C00D18;
     font-size: 13px;
     text-transform: uppercase;
     display: inline-block;
@@ -1533,7 +1533,7 @@ div.pp_default .pp_close{
     width: 40px;
 }
 .folioHover2 a.prePhoto2 {
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     border-radius: 50%;
     bottom: 0;
     color: #fff;
@@ -1551,7 +1551,7 @@ div.pp_default .pp_close{
     color: #404040;
 }
 .folioHover2 a.detailsLink2:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .folioImg2:hover .folioHover2 a.detailsLink2{
     right: -50px;
@@ -1568,7 +1568,8 @@ div.pp_default .pp_close{
 /************************ Breadcrumb Section *******************************/
 .breadCrumArea{
     position: relative;
-    background: url(../images/folio1/breadBg.jpg) no-repeat scroll center center / cover;
+    opacity: .85;
+    background: url(../images/teclas_.jpg) no-repeat scroll center center / cover;
     padding: 175px 0 60px;
 }
 .breadCrumArea:after {
@@ -1612,7 +1613,7 @@ div.pp_default .pp_close{
     color: #fff;
 }
 .breadLink li:hover a{
-    color: #de3c2f;
+    color: #C00D18;
 }
 /************************ Portfolio Section *******************************/
 .portfolioArea.commonSection.folioPage{
@@ -1647,8 +1648,8 @@ div.pp_default .pp_close{
 }
 .defaultButton:hover{
     color: #fff;
-    border-color: #de3c2f;
-    background: #de3c2f;
+    border-color: #C00D18;
+    background: #C00D18;
 }
 /***********************************************************
 ************************ Folio Page Two ********************
@@ -1692,7 +1693,7 @@ div.pp_default .pp_close{
 }
 .defaultPagi li a:hover,
 .defaultPagi li.active a{
-    background: #de3c2f;
+    background: #C00D18;
 }
 /*********************************************************************
 *************************** Folio Page Three *************************
@@ -1745,7 +1746,7 @@ div.pp_default .pp_close{
     background: #00abef none repeat scroll 0 0;
 }
 .folioSocial ul li a.google {
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
 }
 .folioItem{
     background: #fff;
@@ -1783,7 +1784,7 @@ div.pp_default .pp_close{
     color: #404040;
 }
 .blogSidbarPost h2 a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .blogAuthor{
     border-bottom: 1px solid #f2f2f2;
@@ -1796,7 +1797,7 @@ div.pp_default .pp_close{
     font-weight: 400;
 }
 .blogAuthor a{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .blogAuthor a:hover{
     color: #404040;
@@ -1819,7 +1820,7 @@ div.pp_default .pp_close{
     text-transform: uppercase;
 }
 .blogCategory li a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .blogCategory li span{
     display: inline-block;
@@ -1831,7 +1832,7 @@ div.pp_default .pp_close{
 .blogCategory li i{
     float: left;
     font-size: 20px;
-    color: #de3c2f;
+    color: #C00D18;
     padding-right: 3px;
 }
 .blogPostContent {
@@ -1925,7 +1926,7 @@ div.pp_default .pp_close{
     width: 230px;
 }
 .widget form button{
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     border: medium none;
     height: 40px;
     left: auto;
@@ -1961,10 +1962,10 @@ div.pp_default .pp_close{
     position: relative;
 }
 .widget ul li a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .widget ul li a:after {
-    color: #de3c2f;
+    color: #C00D18;
     content: "\f105";
     font-family: FontAwesome;
     font-size: 20px;
@@ -2003,7 +2004,7 @@ div.pp_default .pp_close{
     text-transform: uppercase;
 }
 .sidePostCont a:hover{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .sidePostCont p a{
     color: #979797;
@@ -2023,7 +2024,7 @@ div.pp_default .pp_close{
 }
 .widget.tags a.active,
 .widget.tags a:hover{
-    background: #de3c2f;
+    background: #C00D18;
 }
 /***********************************************************************
 **************************** Blog Grid Page*********************************
@@ -2081,7 +2082,7 @@ div.pp_default .pp_close{
     padding-left: 50px;
 }
 .postPage .quotation:before{
-    color: #de3c2f;
+    color: #C00D18;
 }
 .postPage .leftPost{
     background: transparent;
@@ -2127,7 +2128,7 @@ div.pp_default .pp_close{
 .authorDesc h6{
     font-size: 13px;
     text-transform: uppercase;
-    color: #de3c2f;
+    color: #C00D18;
     padding-bottom: 21px;
 }
 .commentsSection > h1 {
@@ -2181,7 +2182,7 @@ div.pp_default .pp_close{
 .commentMeta a{
     text-transform: uppercase;
     font-size: 13px;
-    color: #de3c2f;
+    color: #C00D18;
     font-weight: 400;
     padding-top: 2px;
 }
@@ -2239,8 +2240,8 @@ div.pp_default .pp_close{
     transition: all 700ms ease-in-out;
 }
 .commentForm form button:hover {
-    background: #de3c2f none repeat scroll 0 0;
-    border-color: #de3c2f;
+    background: #C00D18 none repeat scroll 0 0;
+    border-color: #C00D18;
     color: #fff;
 }
 .calendarWidget{
@@ -2277,7 +2278,7 @@ div.pp_default .pp_close{
     text-align: center;
 }
 .calendarWidget table tr td.active{
-    color: #de3c2f;
+    color: #C00D18;
     font-weight: 700;
 }
 .calendarButton{
@@ -2288,7 +2289,7 @@ div.pp_default .pp_close{
 .calendarButton a{
     width: 40px;
     height: 40px;
-    background: #DE3C2F;
+    background: #C00D18;
     color: #FFF;
     text-align: center;
     font-size: 20px;
@@ -2330,7 +2331,7 @@ div.pp_default .pp_close{
     font-family: "FontAwesome";
     font-size: 20px;
     padding-right: 15px;
-    color: #de3c2f;
+    color: #C00D18;
     display: inline-block;
 }
 .myAccordion .panel.panel-default{
@@ -2348,7 +2349,7 @@ div.pp_default .pp_close{
     background: none;
 }
 .myAccordion .panel-title a{
-    background: #de3c2f;
+    background: #C00D18;
     color: #fff;
     display: block;
     font-size: 13px;
@@ -2371,7 +2372,7 @@ div.pp_default .pp_close{
     -moz-transition: all 700ms ease-in-out;
 }
 .myAccordion .panel-title a.collapsed:hover{
-    background: #de3c2f;
+    background: #C00D18;
 }
 .myAccordion .panel-title a:after{
     background: url("../images/about/minus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -2435,7 +2436,7 @@ div.pp_default .pp_close{
     padding-bottom: 10px;
 }
 .teamDetails h5 {
-    color: #de3c2f;
+    color: #C00D18;
     font-size: 13px;
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -2519,7 +2520,7 @@ div.pp_default .pp_close{
 }
 .memberMeta li i{
     display: inline-block;
-    color: #de3c2f;
+    color: #C00D18;
     font-size: 20px;
 }
 .memberMeta li span{
@@ -2603,7 +2604,7 @@ div.pp_default .pp_close{
 }
 .fourZeroArea h1{
     font-size: 250px;
-    color: #de3c2f;
+    color: #C00D18;
 }
 .fourZeroArea h2{
     border-bottom: 1px solid #f2f2f2;
@@ -2658,7 +2659,7 @@ div.pp_default .pp_close{
     color: #404040;
 }
 .eventDet h4 a:hover{
-    color: #DE3C2F;
+    color: #C00D18;
 }
 .evMeta{
     border-top: thin solid #f2f2f2;
@@ -2675,7 +2676,7 @@ div.pp_default .pp_close{
     font-weight: 400;
 }
 .evMeta p i{
-    color: #de3c2f;
+    color: #C00D18;
     font-size: 20px;
     left: 0;
     margin-right: 6px;
@@ -2763,7 +2764,7 @@ div.pp_default .pp_close{
     font-weight: 300;
 }
 .contactForm form input.reqError,.contactForm form textarea.reqError{
-    border-color: #de3c2f;
+    border-color: #C00D18;
 }
 .contactForm form input{
     background: #fff none repeat scroll 0 0;
@@ -2815,8 +2816,8 @@ div.pp_default .pp_close{
     font-weight: 400;
 }
 .contactForm form button:hover {
-    background: #de3c2f none repeat scroll 0 0;
-    border-color: #de3c2f;
+    background: #C00D18 none repeat scroll 0 0;
+    border-color: #C00D18;
     color: #fff;
 }
 
@@ -2932,7 +2933,7 @@ outline: 0;
 }
 .slick-prev.slick-arrow:hover,
 .slick-next.slick-arrow:hover{
-    background: #de3c2f;
+    background: #C00D18;
 }
 .testimonialFirstHome{
     display: table;
@@ -2950,12 +2951,12 @@ outline: 0;
 }
 .testimonialFirstHome .quotation:before {
     top: 32px;
-    color: #de3c2f;
+    color: #C00D18;
     left: -6px;
 }
 .testimonialFirstHome .quotation:after {
     top: 32px;
-    color: #de3c2f;
+    color: #C00D18;
 }
 .clientTestiImg{
     width: 70px;
@@ -3019,11 +3020,11 @@ outline: 0;
     border-right: 0;
 }
 .tabNavs li.active{
-    border-color: #de3c2f;
+    border-color: #C00D18;
 }
 .tabNavs li a span{
     font-size: 24px;
-    color: #de3c2f;
+    color: #C00D18;
     display: block;
     padding: 10px 0 13px;
 }
@@ -3032,7 +3033,7 @@ outline: 0;
 }
 .singleTabContent h2{
     font-size: 30px;
-    color: #de3c2f;
+    color: #C00D18;
     font-weight: 300;
     padding-bottom: 10px;
 }
@@ -3051,7 +3052,7 @@ outline: 0;
     position: relative;
 }
 .allFeatureBtn {
-    background: #de3c2f;
+    background: #C00D18;
     bottom: 60px;
     color: #fff;
     font-size: 13px;
@@ -3116,7 +3117,7 @@ outline: 0;
     z-index: 9991;
 }
 .switch {
-    background: none repeat scroll 0 0 #de3c2f;
+    background: none repeat scroll 0 0 #C00D18;
     color: #fff;
     padding: 12px 0 12px 40px;
     position: absolute;
@@ -3134,7 +3135,7 @@ outline: 0;
     font-weight: 300;
 }
 .switch a {
-    background: none repeat scroll 0 0 #de3c2f;
+    background: none repeat scroll 0 0 #C00D18;
     color: #fff;
     font-size: 24px;
     height: 40px;
@@ -3172,7 +3173,7 @@ outline: 0;
     width: 100%;
 }
 .accentColor a {
-    background: #de3c2f none repeat scroll 0 0;
+    background: #C00D18 none repeat scroll 0 0;
     border-radius: 50%;
     float: left;
     height: 30px;
@@ -3240,7 +3241,7 @@ outline: 0;
     background: #404040;
 }
 .colorChem a:hover {
-    color: #de3c2f;
+    color: #C00D18;
 }
 .colorChem a:last-child {
     margin-right: 0;
@@ -3351,7 +3352,7 @@ outline: 0;
     height: 100%;
     position: fixed;
     left: 0;
-    background: #de3c2f;
+    background: #C00D18;
     top: 0;
     z-index: 99999;
 }

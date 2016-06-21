@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Solide - MX</title>
+    <title>Solide MX</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Include All CSS -->
@@ -61,19 +61,6 @@
             <a class="light active" href="light">Light</a>
             <a class="dark" href="dark">Dark</a>
         </div>
-        <div class="layoutstyle">
-            <p class="psTitle">Choose layout style:</p>
-            <a class="layouta wide active" href="wide">
-                <img class="normalLay" src="images/preset/lay1.png" alt="">
-                <img class="hoverLay" src="images/preset/lay1h.png" alt="">
-                <span>Wide</span>
-            </a>
-            <a id="boxLayout" class="layouta box" href="box">
-                <img class="normalLay" src="images/preset/lay2.png" alt="">
-                <img class="hoverLay" src="images/preset/lay2h.png" alt="">
-                <span>Box</span>
-            </a>
-        </div>
     </div>
     <!-- End Color Preset -->
     <!--================= Box Div Start ==================-->
@@ -99,14 +86,14 @@
                     <li class="hasChild">
                         <a href="#" style="font-family: monospace; font-size: 21px;">Servicios</a>
                     </li>
-                    <li><a href="#" style="font-family: monospace; font-size: 21px;">Sobre nosotros</a></li>
-                    <li><a href="#" style="font-family: monospace; font-size: 21px;">Contacto</a></li>
+                    <li><a href="about.html" style="font-family: monospace; font-size: 21px;">Sobre nosotros</a></li>
+                    <li><a href="contact.html" style="font-family: monospace; font-size: 21px;">Contacto</a></li>
                 </ul>
             </nav>
             <div class="clearfix"></div>
         </header>
         <!-- Slider Section -->
-        <section class="sliderArea" data-currentslide="activRev_1">
+        <section class="sliderArea" data-currentslide="activRev_1" style="font-family: monospace;">
             <div class="tp-banner1">
                 <ul>
                     <li data-transition="curtain-3" data-slotamount="7" data-masterspeed="1000">
@@ -151,7 +138,7 @@
             </div> 
         </section>
         <!-- Feature Section -->
-        <section class="featureArea commonSection fadeout" id="features">
+        <section class="featureArea commonSection fadeout" id="features" style="padding: 55px 0 55px; font-family: monospace;">
             <div class="container">
                 <div class="row">
                     <!--<div class="col-lg-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
@@ -163,29 +150,29 @@
                         </div>
                     </div>-->
                     <div class="col-lg-4 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
-                        <div class="featureImg">
-                            <img src="images/home1/feature2.png" alt="">
-                        </div>
+                        <!--div class="featureImg"-->
+                            <img src="images/dispositivos/disenio.png" alt="" style="width: 72%;">
+                        <!--/div-->
                         <div class="featureContent">
-                            <h3><a href="#">Diseño <span>innovador</span></a></h3>
+                            <h3><a href="">Diseño <span>innovador</span></a></h3>
                             <!--p>Stet clita kasd gubergren no takimata sanctus est lorem ipsum.</!--p-->
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
-                        <div class="featureImg">
-                            <img src="images/home1/feature3.png" alt="">
-                        </div>
+                        <!--div class="featureImg"-->
+                            <img src="images/dispositivos/dispositivos.png" alt="" style="width: 72%;">
+                        <!--/div-->
                         <div class="featureContent">
-                            <h3><a href="#">Responsive <span>design</span></a></h3>
+                            <h3><a href="">Responsive <span>design</span></a></h3>
                             <!--p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam.</p-->
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="450ms">
-                        <div class="featureImg">
-                            <img src="images/home1/feature4.png" alt="">
-                        </div>
+                        <!--div class="featureImg"-->
+                            <img src="images/dispositivos/24-7.png" alt="" style="width: 72%;">
+                        <!--/div-->
                         <div class="featureContent">
-                            <h3><a href="#">Soporte <span>24/7</span></a></h3>
+                            <h3><a href="">Soporte <span>24/7</span></a></h3>
                             <!--p>Nonumy eirmod tempor invidunt ut labore et dolore magna.</p-->
                         </div>
                     </div>
@@ -196,7 +183,7 @@
         <section class="serviceArea commonSection">
             <div class="overlay"></div>
             <div class="container">
-                <div class="row" style="mheight: 668px; margin-bottom: -15%; margin-top: -10% !important;">
+                <div class="row" style="mheight: 668px; margin-bottom: -15%; margin-top: -10% !important; font-family: monospace;">
                     <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
                         <div class="singleService first">
                             <div class="serviceContent pull-left text-right">
@@ -224,8 +211,11 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
+                        <div class="serviceImg">
+                        <img Style="margin-top: 34%; width: 90%; opacity: .85; margin-left: 6%;" src="images/logoSolide/contracubo_5.png" alt="" />
+                            </div>
                         <!---- start-slider---->
-                        <div class="slider">
+                        <!--div class="slider">
                             <div id="da-slider" class="da-slider" style="min-height: 459px !important;">
                                 <div class="da-slide">
                                     <img style="margin-top: -13%; width: 156%; margin-left: 25%;" src="images/dispositivos/dispositivo_phone.png" alt="" />
@@ -238,7 +228,7 @@
                                 </div>
                             </div>
                             <!--End-da-slider-->
-                        </div>
+                        <!--/div-->
                     </div>
                     <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
                         <div class="singleService first">
@@ -364,11 +354,11 @@
 
      jQuery(document).ready(function($) {
 
-        $('#da-slider').cslider({
+/*        $('#da-slider').cslider({
             autoplay    : true,
             bgincrement : 450
         });
-
+                */
         $('#da-slider2').cslider({
             autoplay    : true,
             bgincrement : 1000

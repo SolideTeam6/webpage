@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Solide - MX</title>
+    <title>Solide MX</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Include All CSS -->
@@ -16,9 +16,11 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="css/patros.css" />
     <link id="layout" rel="stylesheet" type="text/css" href="css/colorpreset/wide.css" />
     <link id="colorChem" rel="stylesheet" type="text/css" href="css/colorpreset/light.css" />
     <link id="colorsSet" rel="stylesheet" type="text/css" href="css/colorpreset/color1.css" />
+
 
     <!-- Favicon Icon -->
     <link rel="icon" type="image/png" href="images/logoSolide/icon.png">
@@ -60,28 +62,7 @@
             <p class="psTitle">Choose color scheme:</p>
             <a class="light active" href="light">Light</a>
             <a class="dark" href="dark">Dark</a>
-        </div>
-        <div class="layoutstyle">
-            <p class="psTitle">Choose layout style:</p>
-            <a class="layouta wide active" href="wide">
-                <img class="normalLay" src="images/preset/lay1.png" alt="">
-                <img class="hoverLay" src="images/preset/lay1h.png" alt="">
-                <span>Wide</span>
-            </a>
-            <a id="boxLayout" class="layouta box" href="box">
-                <img class="normalLay" src="images/preset/lay2.png" alt="">
-                <img class="hoverLay" src="images/preset/lay2h.png" alt="">
-                <span>Box</span>
-            </a>
-        </div>
-        <div class="patterns">
-            <p class="psTitle">Choose pattern:</p>
-            <a href="bgOne" class="active bg1"></a>
-            <a href="bgTwo" class="bg2"></a>
-            <a href="bgThree" class="bg3"></a>
-            <a href="bgFour" class="bg4"></a>
-            <a href="bgFive" class="bg5"></a>
-        </div>
+        </div>  
     </div>
     <!-- End Color Preset -->
     <!--================= Box Div Start ==================-->
@@ -107,40 +88,86 @@
                     <li class="hasChild">
                         <a href="#" style="font-family: monospace; font-size: 21px;">Servicios</a>
                     </li>
-                    <li><a href="#" style="font-family: monospace; font-size: 21px;">Sobre nosotros</a></li>
-                    <li><a href="#" style="font-family: monospace; font-size: 21px;">Contacto</a></li>
+                    <li><a href="about.html" style="font-family: monospace; font-size: 21px;">Sobre nosotros</a></li>
+                    <li><a href="contact.html" style="font-family: monospace; font-size: 21px;">Contacto</a></li>
                 </ul>
             </nav>
             <div class="clearfix"></div>
         </header>
         <!-- Breadcrumb Section -->
-        <section class="breadCrumArea" style="opacity: .78;">
+        <section class="breadCrumArea" style="opacity: .78; background: url(../Solidewebpage/images/contact2_.jpg) no-repeat scroll center center / cover;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
-                        <h1 style="color: rgba(255, 255, 255, 0.75);" class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">contáctano<span>s</span></h1>
+                        <h1 style="color: rgba(255, 255, 255, 0.75); font-family: monospace;" class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">contáctano<span>s</span></h1>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Contact Section -->
-        <section class="contactArea commonSection">
-            <div class="container">
+        <section id="contact">
+            <div class="container"> 
                 <div class="row">
-                    <div class="col-lg-8 col-sm-12 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
-                        <div class="contactForm">
-                            <form method="post" action="#" id="unContactForm">
-                                <input class="required" type="text" placeholder="Nombre" name="con_name">
-                                <input class="required" type="email" placeholder="Email" id="contact_email" name="email_address">
-                                <div class="clearfix"></div>
-                                <textarea class="required" placeholder="Mensaje" name="message"></textarea>
-                                <a href="#" class="sliderBtn"><i class="fa fa-envelope"></i><span>Empezamos!!</span></a>
-                                <button type="submit" id="unConSubmit">Enviar</button>
+                    <div class="col-md-12 wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms">
+                        <div class="col-md-8">
+                            <form class="inline" id="contactForm" method="post" style="font-family: monospace;">
+                                <div class="row">
+                                    <div class="col-sm-6 height-contact-element">
+                                        <div class="form-group">
+                                            <input type="text" name="first_name" class="form-control custom-labels" id="name" placeholder="Nombre" required data-validation-required-message="Please write your name!"/>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 height-contact-element">
+                                        <div class="form-group">
+                                            <input type="email" name="email" class="form-control custom-labels" id="email" placeholder="Email" required data-validation-required-message="Please write your email!"/>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 height-contact-element">
+                                        <div class="form-group">
+                                            <input type="text" name="message" class="form-control custom-labels" id="message" placeholder="Mensaje" required data-validation-required-message="Please write a message!"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 height-contact-element">
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-lg btn-custom btn-noborder-radius" value="ENVIAR"/>
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
+                        </div>
+                        <div class="col-md-3 col-md-offset-1 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms" style="display:inline;float:left; width:150px;">
+                        <div class="row" >
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55999.83992171886!2d-106.1447905618698!3d28.689945887683965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea43b35db3fe2d%3A0x79a2e574a3f8c671!2sHermanos+Flores+%26+M%C3%A1rtires+Agraristas%2C+Francisco+Villa%2C+Chihuahua%2C+Chih.!5e0!3m2!1ses-419!2smx!4v1466536707669" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
                         </div>
                     </div>
                 </div>
+                <div class="row wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms" style="font-size: 14px; margin-bottom: 5%;">
+                    <div class="col-md-12">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <i class="fa fa-2x fa-map-marker"><!-- style="margin-left: 39%;margin-bottom: 10%;"--></i>
+                                <span class="text" style="font-family: monospace;">C. Flores Magon #XXX Col. Villa Nueva</span>
+                            </div>          
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <i class="fa fa-2x fa-phone"><!-- style="margin-left: 39%;margin-bottom: 10%;"--></i>
+                                <span class="text" style="font-family: monospace;">614 - 1 - 28 - 06 - 51 </span>
+                             </div>         
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <i class="fa fa-2x fa-envelope"></i>
+                                    <span class="text" style="font-family: monospace;"><a href="malito:mail@demolink.org">Contacto@solidemx.com</a></span>
+                             </div>         
+                        </div>
+                    </div>        
+                </div>
             </div>
+            
         </section>
         <!-- Footer Section -->
         <footer class="footerArea">
@@ -149,7 +176,7 @@
                     <div class="row col-lg-12">
                         <div class="col-lg-4">
                             <div class="row">
-                                <h3>Siguenos!</h3>
+                                <h3 style="font-family: 'Lato', sans-serif;">Siguenos!</h3>
                             </div>
                             <div class="row" style="margin-top: 20px;">
                                 <ul class="social-icons margin-top-20">
@@ -199,7 +226,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4" style="margin-top: 30px; vertical-align: middle; text-align: right;">
-                            <p>Made by <strong style="color: #C00D18;">Solide <i class="fa fa-cube"></i></strong></p>
+                            <p style="font-family: 'Lato', sans-serif;">Made by <strong style="color: #C00D18;">Solide <i class="fa fa-cube"></i></strong></p>
                         </div>
                         <!--<div class="col-lg-4 text-center">
                             <img src="images/logoSolide/solideTitle.png" style="width: 30%;">
@@ -233,6 +260,9 @@
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/theme.js"></script>
     <script type="text/javascript" src="js/jquery.cslider.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA27aq8U-hGA2Urb8e8doAVyDFpotcb8rY&callback=initMap">
+    </script>
     <script type="text/javascript">
 
      jQuery(document).ready(function($) {
@@ -243,6 +273,14 @@
         });
 
     });
+
+     var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 28.6919737, lng: -106.1096031},
+    zoom: 8
+  });
+}
 
     </script>
 </body>
