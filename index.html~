@@ -39,6 +39,28 @@
     <!-- End Loader -->
     <!-- Start Color Preset -->
     <div class="presetArea hidden-xs">
+        <div class="switch">
+            <h5>Style <span>Selector</span></h5>
+            <a href="#" id="switches"><i class="icon-cog-outline"></i></a>
+        </div>
+        <div class="accentColor">
+            <p class="psTitle">Choose accent color:</p>
+            <a href="color1" class="active color1"></a>
+            <a href="color2" class="color2"></a>
+            <a href="color3" class="color3"></a>
+            <a href="color4" class="color4"></a>
+            <a href="color5" class="color5 noMarginRight"></a>
+            <a href="color6" class="color6"></a>
+            <a href="color7" class="color7"></a>
+            <a href="color8" class="color8"></a>
+            <a href="color9" class="color9"></a>
+            <a href="color10" class="color10 noMarginRight"></a>
+        </div>
+        <div class="colorChem">
+            <p class="psTitle">Choose color scheme:</p>
+            <a class="light active" href="light">Light</a>
+            <a class="dark" href="dark">Dark</a>
+        </div>
     </div>
     <!-- End Color Preset -->
     <!--================= Box Div Start ==================-->
