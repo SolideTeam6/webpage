@@ -924,7 +924,6 @@
     .serviceImg {
         width: 290px;
         margin: 0 auto 30px;
-	margin-top: -124px;
     }
     /**************** Poftfolio Area ***************/
     .portfolioArea.home{
