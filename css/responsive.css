@@ -764,7 +764,7 @@
         height: inherit;
         position: relative;
         top: 0;
-        padding-top: 40px;
+        padding-top: 0px;
     }
     .logo {
         float: none !important;
@@ -868,13 +868,13 @@
         display: none;
     }
     .sliderArea .tp-caption.lightgrey_divider.lfr{
-        top:120px !important; 
+        top:161px !important; 
     }
     .headCaption {
         font-size: 35px;
     }
     .sliderArea .tp-caption.lightgrey_divider.lfl{
-        top: 200px !important;
+        top: 215px !important;
     }
     .capItalic {
         line-height: 1.1;
