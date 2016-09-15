@@ -1,65 +1,5 @@
 /*
-  Theme Name: TopBiz - Responsive Corporate HTML5 Template
-  Theme URL: http://themewar.com/html/topland
-  Author: ThemeWar
-  Author URI: http://www.themewar.com
-  Description: Responsive Corporate HTML5 Template
-  Version: 1.0
-*/
-
-/*=======================================================================
-[Table of contents]
-=========================================================================
-    1. Home Page One
-        i. Header Section
-        ii. Slider Section
-        iii. Testimonial Section
-        iv. Feature Section
-        v. Service Section
-        vi. Portfolio Section
-        vii. Fun Facts Section
-        viii. Skill Section
-        ix. Blog Section
-        x. Subscribe Section
-        xi. Footer Section
-    2. Home Two
-        i. Portfolio Section
-        ii. Blog Section
-    3. Home Three
-        i. Portfolio Section
-    4. Folio Page One
-        i. Breadcrumb Section
-        ii. Portfolio Section
-    5. Folio Page Two
-        i. Folio Section
-    6. Folio Page Threee
-        i. Portfolio Section
-    7. Single Folio Page
-        i. Portfolio Item Section
-    8. Blog Sidebar Page
-    9. Blog Grid Page
-    10. Post Page
-    11. About Page
-        i. About Section
-        ii. Team Section
-    12. Member Page
-        i. Member Section
-        ii. Fun facts Section
-        iii. Colleague Section
-    13. 404 Page
-        i. 404 Section
-    14. Event Page
-    15. Event Single Page
-        i. Event Section
-    16. Contact Page
-        i. Map Section
-        ii. Contact Section
-
-==========================================================================*/
-/*************************************************************************
-***************************** Home Page One ******************************
-***************************************************************************/
-/************************ Header Section *******************************/
+/*by Solide*/
 .headerArea{
     background: #fff;
     height: 80px;
@@ -107,7 +47,7 @@
     font-weight: 700;
 }
 .mainMenu{
-    width: 60%;
+    width: 71%;
 }
 .mainMenu > ul{
     text-align: center;
